@@ -13,12 +13,10 @@ function App() {
     <div className="App">
       <h2><em>Counter</em></h2>
       <Counter count={count} increment={increment} decrement={decrement} />
-
       <br />
       <h2><em>Exponents</em></h2>
 
       <div className="container">
-        {/* Usamos el componente Exponent con diferentes exponentes */}
         <Exponent num={count} exponent={2} />
         <Exponent num={count} exponent={3} />
         <Exponent num={count} exponent={4} />
